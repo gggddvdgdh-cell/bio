@@ -1385,3 +1385,98 @@ body {
     padding: 10px;
   }
 }
+
+/* Extra styling for APK, OBB, iOS, Cheat, Services */
+.link-card.apk:hover {
+  border-color: #3ddc84;
+  box-shadow: 0 4px 20px rgba(61, 220, 132, 0.25);
+}
+.link-card.apk:hover::before { background: #3ddc84; }
+
+.link-card.obb:hover {
+  border-color: #00e5ff;
+  box-shadow: 0 4px 20px rgba(0, 229, 255, 0.25);
+}
+.link-card.obb:hover::before { background: #00e5ff; }
+
+.link-card.ios:hover {
+  border-color: #f1f5f9;
+  box-shadow: 0 4px 20px rgba(241, 245, 249, 0.2);
+}
+.link-card.ios:hover::before { background: #f1f5f9; }
+
+.link-card.cheat:hover {
+  border-color: #f59e0b;
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.25);
+}
+.link-card.cheat:hover::before { background: #f59e0b; }
+
+.contact-mini-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--primary);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+  margin-left: auto;
+}
+.contact-mini-btn:hover {
+  background: var(--primary-glow);
+  transform: scale(1.05);
+}
+
+.service-notice-card {
+  padding: 20px 24px;
+  border-radius: var(--radius-md);
+  margin-bottom: 24px;
+  border: 1px solid rgba(236, 72, 153, 0.3);
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.05), rgba(16, 185, 129, 0.05));
+}
+.service-notice-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.service-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(236, 72, 153, 0.15);
+  color: #ec4899;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+.service-notice-header h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+.service-sub {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.service-notice-body p {
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.service-donate-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(236, 72, 153, 0.1);
+  color: #f472b6;
+  font-size: 0.92rem;
+}
